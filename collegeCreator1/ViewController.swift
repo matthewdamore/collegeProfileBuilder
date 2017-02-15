@@ -10,7 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    var  myCollegeClass:[CollegeClass] = []
+    
+    
     override func viewDidLoad() {
+        super. viewDidLoad()
+        myCollegeObject.append(CollegeClass)
+        
+        
+        
+    
+        
+        
+        
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
